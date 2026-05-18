@@ -11,5 +11,3 @@ def calculator():
     """
     calculator = Calculator()
     yield calculator
-
-    del calculator

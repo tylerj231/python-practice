@@ -1,5 +1,7 @@
 import pytest
 
+from calculator import Calculator
+
 
 class TestHappyPass:
     """
@@ -80,7 +82,7 @@ class TestHappyPass:
         assert actual == expected
 
 
-class TestHappyFail:
+class TestNegativePath:
     """
     Test Group that tests correct behavior of the calculator given invalid data.
     """
