@@ -1,5 +1,4 @@
 class Calculator:
-
     """
     Object representing a simple calculator with basic operations.
     """
@@ -15,3 +14,6 @@ class Calculator:
 
     def divide(self, a: int, b) -> int:
         return a / b
+
+    def __repr__(self):
+        return "Calculator()"
