@@ -20,14 +20,10 @@ def test_countdown_manual_next():
 
 def test_countdown_stop_iteration():
     countdown = Countdown(6)
+    for _ in countdown:
+        pass
     with pytest.raises(StopIteration):
         next(countdown)
-        next(countdown)
-        next(countdown)
-        next(countdown)
-        next(countdown)
-        next(countdown)
-
 
 def test_countdown_for_loop():
     countdown = Countdown(6)
