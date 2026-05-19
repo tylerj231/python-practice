@@ -1,6 +1,6 @@
 import pytest
 
-from calculator import Calculator
+from tasks.calculator import Calculator
 
 
 @pytest.fixture(scope="session")
